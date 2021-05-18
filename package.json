@@ -1,0 +1,14 @@
+{
+	"name": "y2front",
+	"version": "1.0.0",
+	"main": "index.js",
+	"private": "true",
+	"license": "MIT",
+	"workspaces": [
+		"packages/**"
+	],
+	"devDependencies": {
+		"craco": "^0.0.3",
+		"lerna": "^4.0.0"
+	}
+}
