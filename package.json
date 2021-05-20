@@ -4,6 +4,9 @@
 	"main": "index.js",
 	"private": "true",
 	"license": "MIT",
+	"scripts": {
+		"bootstrap": "lerna bootstrap"
+	},
 	"workspaces": [
 		"packages/**"
 	],
