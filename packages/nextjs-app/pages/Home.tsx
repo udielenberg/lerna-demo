@@ -1,7 +1,6 @@
 import * as React from "react";
 import styles from "./Home.module.scss";
-import TestComponent from "../components/TestComponent";
-// import { TextInput } from "@y2front/mango-ui";
+import { TextInput } from "@y2front/mango-ui";
 import { sayHello } from "@y2front/utils";
 
 const Home = (props) => {
@@ -10,8 +9,7 @@ const Home = (props) => {
 	}, []);
 	return (
 		<div className={styles.home}>
-			<TestComponent />
-			{/* <TextInput /> */}
+			<TextInput color="blue" placeholder="write something" />
 		</div>
 	);
 };
