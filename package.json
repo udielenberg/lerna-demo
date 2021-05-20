@@ -5,7 +5,7 @@
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
-		"bootstrap": "lerna bootstrap"
+		"prepare": "lerna bootstrap --strict"
 	},
 	"workspaces": [
 		"packages/**"
