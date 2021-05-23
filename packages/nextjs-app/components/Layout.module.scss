@@ -1,0 +1,48 @@
+.layout {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	header {
+		color: white;
+		background: lightseagreen;
+		padding: 10px 10px;
+	}
+
+	.header {
+		display: flex;
+		align-items: baseline;
+
+		.title {
+			text-transform: uppercase;
+		}
+	}
+
+	main {
+		color: rgb(82, 82, 82);
+		flex: 1;
+		padding: 20px;
+	}
+
+	footer {
+		text-align: center;
+		color: black;
+		background: #d8d6d6;
+		font-size: 0.8rem;
+		padding: 10px 10px;
+	}
+
+	.links {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 20px;
+		width: 360px;
+
+		.link {
+			margin: 0 20px;
+			padding: 5px;
+			background: goldenrod;
+		}
+	}
+}
