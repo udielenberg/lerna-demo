@@ -13,7 +13,7 @@ const Ssr = ({ ssrValue }) => {
 	}, []);
 	return (
 		<div className={styles.ssr}>
-			<h1>SSR</h1>
+			<h1>SSR Page</h1>
 			<p>
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 				Suscipit velit animi optio vero voluptatum aliquam vitae,

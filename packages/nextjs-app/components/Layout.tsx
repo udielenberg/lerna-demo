@@ -19,11 +19,11 @@ const Layout = ({ children }) => {
 					<div className={styles.links}>
 						{links.map(({ href, value, different }) =>
 							different ? (
-								<Button different key={value}>
+								<Button different key={value} data-cy={href}>
 									<Link href={href}>{value}</Link>
 								</Button>
 							) : (
-								<Button key={value}>
+								<Button key={value} data-cy={href}>
 									<Link href={href}>{value}</Link>
 								</Button>
 							)

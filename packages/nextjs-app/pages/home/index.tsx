@@ -9,7 +9,7 @@ const Home = (props) => {
 	}, []);
 	return (
 		<div className={styles.home}>
-			<h1>Home</h1>
+			<h1>Home Page</h1>
 			<div>
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit.

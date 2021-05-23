@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 const About = (props) => {
 	return (
 		<div className={styles.about}>
-			<h1>About</h1>
+			<h1>About Page</h1>
 			<p>
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 				Suscipit velit animi optio vero voluptatum aliquam vitae,
