@@ -8,10 +8,9 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^1.2.35",
-		"@fortawesome/free-solid-svg-icons": "^5.15.3",
-		"@fortawesome/react-fontawesome": "^0.1.14",
+		"@y2front/mango-ui": "0.1.0",
 		"@y2front/utils": "0.1.0",
+		"axios": "^0.21.1",
 		"next": "10.2.0",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
@@ -31,6 +30,7 @@
 		"@types/react": "^16.9.44",
 		"babel-jest": "^26.2.2",
 		"babel-loader": "^8.1.0",
+		"babel-plugin-styled-components": "^1.12.0",
 		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
 		"babel-preset-react-app": "^9.1.2",
 		"css-loader": "^4.2.0",
