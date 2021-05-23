@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-export { Global } from "./common/global";
-
 export const TextInput = styled.input`
 	width: 130px;
 	box-sizing: border-box;
